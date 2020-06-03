@@ -1,13 +1,8 @@
 import React from 'react';
-import HomePage from "./pages/homepage.component.jsx"
+import HomePage from "./pages/home/homepage.component.jsx"
 import "./App.css"
 import { Route } from "react-router-dom";
-
-const ShopPage = () => (
-  <div>
-    <h1>Shop Page</h1>
-  </div>
-)
+import ShopPage from './pages/shop/shop.component.jsx';
 
 function App() {
   return  <div className='App'>
