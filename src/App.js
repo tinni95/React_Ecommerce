@@ -8,6 +8,7 @@ import SignInAndSignUp from './pages/signin-and-sign-up/signin-and-sign-up.compo
 import { auth, createUserProfileDocument } from './firebase/firebase.util.js';
 import { connect } from 'react-redux';
 import { setCurrentUser } from './redux/user/user.actions.js';
+import ItemPage from './pages/single-item/itempage.component.jsx';
 
 class App extends React.Component {
 
@@ -46,6 +47,7 @@ class App extends React.Component {
         this.props.currentUser ? 
         <Redirect to="/"/>:<SignInAndSignUp/>}/>
         <Route exact path="/shop" component={ShopPage}/>
+        <Route path="/shop/:itemId" component={ItemPage}/>
     </div>)
   }
 }
