@@ -2,9 +2,12 @@ import React from "react";
 import HomePage from "./pages/home/homepage.component.jsx";
 import "./App.css";
 import { Route, Redirect } from "react-router-dom";
+
+import CheckoutPage from "./pages/checkout/checkout.component.jsx";
 import ShopPage from "./pages/shop/shop.component.jsx";
 import Header from "./components/header/header.component.jsx";
 import SignInAndSignUp from "./pages/signin-and-sign-up/signin-and-sign-up.component.jsx";
+
 import { auth, createUserProfileDocument } from "./firebase/firebase.util.js";
 import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.actions.js";
@@ -50,6 +53,7 @@ class App extends React.Component {
             this.props.currentUser ? <Redirect to="/" /> : <SignInAndSignUp />
           }
         />
+        <Route exact path="/checkout" component={CheckoutPage} />
         <Route exact path="/shop" component={ShopPage} />
         <Route path="/shop/:itemId" component={ItemPage} />
       </div>
