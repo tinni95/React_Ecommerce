@@ -23,7 +23,13 @@ class CollectionItem extends React.Component {
           this.setState({ hover: false }, () => console.log("out"))
         }
         className="collection-item"
-        onClick={() => history.push(`${match.url}/single/${id}`)}
+        onClick={() =>
+          history.push(
+            `${
+              match.url.split("/")[0] + "/" + match.url.split("/")[1]
+            }/single/${id}`
+          )
+        }
       >
         <div
           className="image"
