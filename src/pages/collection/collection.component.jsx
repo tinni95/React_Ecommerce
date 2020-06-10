@@ -6,7 +6,7 @@ import { selectCollection } from "../../redux/shop/shop.selectors";
 import CollectionItem from "../../components/collection-item/collection-item.component";
 
 const CollectionPage = ({ collection: { title, items } }) => (
-  <div className="collection-preview">
+  <div className="collection">
     <h1 className="title">{title.toUpperCase()}</h1>
     <div className="preview">
       {items.map(({ id, ...otherItemProps }) => (
