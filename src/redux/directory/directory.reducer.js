@@ -17,13 +17,13 @@ const INITIAL_STATE = {
       linkUrl: "/shop",
     },
     {
-      title: "sneakers",
+      title: "RESTOCK",
       imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
       id: 3,
       linkUrl: "/shop",
     },
     {
-      title: "sneakers",
+      title: "ACCESSORIES",
       imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
       id: 4,
       linkUrl: "/shop",
