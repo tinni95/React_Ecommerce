@@ -1,6 +1,7 @@
 export const SHOP_DATA_FLAT = [
   {
     id: 1,
+    categoryId: 1,
     name: "Brown Brim",
     imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
     gallery: [
@@ -11,6 +12,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 2,
+    categoryId: 1,
     name: "Blue Beanie",
     imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
     gallery: [
@@ -21,6 +23,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 3,
+    categoryId: 1,
     name: "Brown Cowboy",
     imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
     gallery: [
@@ -31,6 +34,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 4,
+    categoryId: 1,
     name: "Grey Brim",
     imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
     gallery: [
@@ -41,6 +45,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 5,
+    categoryId: 2,
     name: "Green Beanie",
     imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
     gallery: [
@@ -51,6 +56,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 6,
+    categoryId: 2,
     name: "Palm Tree Cap",
     imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
     gallery: [
@@ -61,6 +67,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 7,
+    categoryId: 2,
     name: "Red Beanie",
     imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
     gallery: [
@@ -71,6 +78,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 8,
+    categoryId: 2,
     name: "Wolf Cap",
     imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
     gallery: [
@@ -81,6 +89,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 9,
+    categoryId: 2,
     name: "Blue Snapback",
     imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
     gallery: [
@@ -91,6 +100,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 10,
+    categoryId: 3,
     name: "Adidas NMD",
     imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
     gallery: [
@@ -101,6 +111,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 11,
+    categoryId: 3,
     name: "Adidas Yeezy",
     imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
     gallery: [
@@ -111,6 +122,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 12,
+    categoryId: 3,
     name: "Black Converse",
     imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
     gallery: [
@@ -121,6 +133,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 13,
+    categoryId: 3,
     name: "Nike White AirForce",
     imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
     gallery: [
@@ -131,6 +144,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 14,
+    categoryId: 3,
     name: "Nike Red High Tops",
     imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
     gallery: [
@@ -141,6 +155,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 15,
+    categoryId: 3,
     name: "Nike Brown High Tops",
     imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
     gallery: [
@@ -151,6 +166,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 16,
+    categoryId: 3,
     name: "Air Jordan Limited",
     imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
     gallery: [
@@ -161,6 +177,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 17,
+    categoryId: 3,
     name: "Timberlands",
     imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
     gallery: [
@@ -171,6 +188,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 18,
+    categoryId: 3,
     name: "Black Jean Shearling",
     imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
     gallery: [
@@ -181,6 +199,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 19,
+    categoryId: 4,
     name: "Blue Jean Jacket",
     imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
     gallery: [
@@ -191,6 +210,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 20,
+    categoryId: 4,
     name: "Grey Jean Jacket",
     imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
     gallery: [
@@ -201,6 +221,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 21,
+    categoryId: 4,
     name: "Brown Shearling",
     imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
     gallery: [
@@ -211,6 +232,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 22,
+    categoryId: 4,
     name: "Tan Trench",
     imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
     gallery: [
@@ -221,6 +243,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 23,
+    categoryId: 4,
     name: "Blue Tanktop",
     imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
     gallery: [
@@ -231,6 +254,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 24,
+    categoryId: 4,
     name: "Floral Blouse",
     imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
     gallery: [
@@ -241,6 +265,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 25,
+    categoryId: 4,
     name: "Floral Dress",
     imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
     gallery: [
@@ -251,6 +276,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 26,
+    categoryId: 4,
     name: "Red Dots Dress",
     imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
     gallery: [
@@ -261,6 +287,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 27,
+    categoryId: 4,
     name: "Striped Sweater",
     imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
     gallery: [
@@ -271,6 +298,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 28,
+    categoryId: 4,
     name: "Yellow Track Suit",
     imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
     gallery: [
@@ -281,6 +309,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 29,
+    categoryId: 4,
     name: "White Blouse",
     imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
     gallery: [
@@ -291,6 +320,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 30,
+    categoryId: 4,
     name: "Camo Down Vest",
     imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
     gallery: [
@@ -301,6 +331,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 31,
+    categoryId: 4,
     name: "Floral T-shirt",
     imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
     gallery: [
@@ -311,6 +342,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 32,
+    categoryId: 4,
     name: "Black & White Longsleeve",
     imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
     gallery: [
@@ -321,6 +353,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 33,
+    categoryId: 1,
     name: "Pink T-shirt",
     imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
     gallery: [
@@ -331,6 +364,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 34,
+    categoryId: 1,
     name: "Jean Long Sleeve",
     imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
     gallery: [
@@ -341,6 +375,7 @@ export const SHOP_DATA_FLAT = [
   },
   {
     id: 35,
+    categoryId: 1,
     name: "Burgundy T-shirt",
     imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
     gallery: [
@@ -667,6 +702,73 @@ const SHOP_DATA = [
           "https://i.ibb.co/M6hHc3F/brown-trench.png",
         ],
         price: 20,
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Mens",
+    routeName: "mens",
+    items: [
+      {
+        id: 30,
+        name: "Camo Down Vest",
+        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        gallery: [
+          "https://i.ibb.co/s96FpdP/brown-shearling.png",
+          "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        ],
+        price: 325,
+      },
+      {
+        id: 31,
+        name: "Floral T-shirt",
+        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        gallery: [
+          "https://i.ibb.co/s96FpdP/brown-shearling.png",
+          "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        ],
+        price: 20,
+      },
+      {
+        id: 32,
+        name: "Black & White Longsleeve",
+        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        gallery: [
+          "https://i.ibb.co/s96FpdP/brown-shearling.png",
+          "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        ],
+        price: 25,
+      },
+      {
+        id: 33,
+        name: "Pink T-shirt",
+        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        gallery: [
+          "https://i.ibb.co/s96FpdP/brown-shearling.png",
+          "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        ],
+        price: 25,
+      },
+      {
+        id: 34,
+        name: "Jean Long Sleeve",
+        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        gallery: [
+          "https://i.ibb.co/s96FpdP/brown-shearling.png",
+          "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        ],
+        price: 40,
+      },
+      {
+        id: 35,
+        name: "Burgundy T-shirt",
+        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        gallery: [
+          "https://i.ibb.co/s96FpdP/brown-shearling.png",
+          "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        ],
+        price: 25,
       },
     ],
   },

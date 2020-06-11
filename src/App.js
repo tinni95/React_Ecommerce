@@ -11,7 +11,6 @@ import SignInAndSignUp from "./pages/signin-and-sign-up/signin-and-sign-up.compo
 import { auth, createUserProfileDocument } from "./firebase/firebase.util.js";
 import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.actions.js";
-import ItemPage from "./pages/single-item/itempage.component.jsx";
 
 import { createStructuredSelector } from "reselect";
 import { selectCurrentUser } from "./redux/user/user.selectors.js";
@@ -20,7 +19,7 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    const { setCurrentUser } = this.props;
+    const { setCurrentUser, collections } = this.props;
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
       if (userAuth) {
         const userRef = await createUserProfileDocument(userAuth);
