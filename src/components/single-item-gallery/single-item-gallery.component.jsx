@@ -1,12 +1,14 @@
 import React from "react";
 
-import "./single-item-gallery.styles.scss"
 import GalleryImage from "../single-item-gallery-image/single-item-gallery-image.component";
+import { SingleItemGallery } from "./single-item.style";
 
-const ItemGallery = ({gallery}) => (
-    <div className="single-item-gallery">
-    { gallery.map((img,idx) => <GalleryImage key={idx} imageUrl={img}></GalleryImage>) }
-    </div>
-)
+const ItemGallery = ({ gallery }) => (
+  <SingleItemGallery>
+    {gallery.map((img, idx) => (
+      <GalleryImage key={idx} imageUrl={img}></GalleryImage>
+    ))}
+  </SingleItemGallery>
+);
 
 export default ItemGallery;

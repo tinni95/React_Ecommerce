@@ -1,12 +1,13 @@
 import React from "react";
 
-import "./single-item-gallery-image.styles.scss"
+import { SingleImage } from "./single-item-gallery-image.style";
 
-const GalleryImage = ({imageUrl}) => (
-    <div className="image"
+const GalleryImage = ({ imageUrl }) => (
+  <SingleImage
     style={{
-        backgroundImage: `url(${imageUrl})`
-    }}/>
-)
+      backgroundImage: `url(${imageUrl})`,
+    }}
+  />
+);
 
 export default GalleryImage;

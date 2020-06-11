@@ -1,11 +1,10 @@
 import { createSelector } from "reselect";
 
 const COLLECTION_ID_MAP = {
-  hats: 1,
-  sneakers: 2,
-  jackets: 3,
-  womens: 4,
-  mens: 5,
+  new: 1,
+  sales: 2,
+  restock: 3,
+  accessories: 4,
 };
 
 const selectShop = (state) => state.shop;
