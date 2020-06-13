@@ -7,8 +7,9 @@ export const CollectionsPreviewContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 22px;
+  font-size: 32px;
   margin-bottom: 25px;
+  margin-left: 25px;
 `;
 
 export const Preview = styled.div`

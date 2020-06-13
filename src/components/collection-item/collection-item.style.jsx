@@ -22,7 +22,7 @@ export const CollectionItemImage = styled.div`
 
 export const CollectionItemFooter = styled.div`
   width: 100%;
-  height: 5%;
+  height: 10%;
   display: flex;
   flex-direction: column;
 `;

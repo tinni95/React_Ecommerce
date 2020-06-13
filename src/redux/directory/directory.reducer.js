@@ -18,13 +18,15 @@ const INITIAL_STATE = {
     },
     {
       title: "RESTOCK",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      imageUrl:
+        "https://i.ibb.co/RyTvtB6/ergita-sela-6q1o-QIEi-Sa-A-unsplash.jpg",
       id: 3,
       linkUrl: "/shop/restock",
     },
     {
       title: "ACCESSORIES",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      imageUrl:
+        "https://i.ibb.co/5cbbXLz/alex-chambers-Tx-Cbf-Mc854c-unsplash.jpg",
       id: 4,
       linkUrl: "/shop/accessories",
     },
