@@ -37,12 +37,14 @@ class ItemPage extends React.Component {
         <TextBlockContainer>
           <h1>{this.state.item.name}</h1>
           <Price>{this.state.item.price}</Price>
-          <CustomButton
-            onClick={() => this.props.addItem(this.state.item)}
-            inverted
-          >
-            ADD TO CART
-          </CustomButton>
+          <div className={"spacer"}>
+            <CustomButton
+              onClick={() => this.props.addItem(this.state.item)}
+              inverted
+            >
+              ADD TO CART
+            </CustomButton>
+          </div>
         </TextBlockContainer>
       </div>
     );

@@ -34,7 +34,7 @@ const JelloAnimation = css`
 `;
 
 const OptionContainerStyles = css`
-  padding: 10px 15px;
+  padding: 10px 10px;
   cursor: pointer;
 `;
 
@@ -44,6 +44,11 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  @media screen and (max-width: 800px) {
+    padding: 10px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const LogoContainer = styled(Link)`
@@ -56,6 +61,10 @@ export const LogoContainer = styled(Link)`
     animation: jello 2s;
     transform-origin: center;
   }
+  @media screen and (max-width: 800px) {
+    padding: 0;
+    width: 50px;
+  }
 `;
 
 export const OptionContainer = styled.div`
@@ -66,6 +75,12 @@ export const OptionContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  @media screen and (max-width: 800px) {
+    width: 80%;
+    padding: 5px;
+    padding-top: 15px;
+    font-size: 8px;
+  }
 `;
 
 export const OptionLink = styled(Link)`

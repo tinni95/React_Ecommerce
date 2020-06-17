@@ -26,6 +26,10 @@ export const MenuItemContainer = styled.div`
   justify-content: center;
   overflow: hidden;
   cursor: pointer;
+  @media screen and (max-width: 800px) {
+    min-width: 100%;
+    height: 400px;
+  }
 `;
 
 export const BackgroundImage = styled.div`

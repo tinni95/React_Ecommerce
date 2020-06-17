@@ -6,4 +6,7 @@ export const SingleImage = styled.div`
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;
+  @media screen and (max-width: 800px) {
+    height: 400px;
+  }
 `;

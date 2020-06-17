@@ -8,6 +8,12 @@ export const CollectionItemContainer = styled.div`
   height: 650px;
   align-items: center;
   cursor: pointer;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    margin-left: 0;
+    height: 300px;
+    margin-top: 20px;
+  }
 `;
 
 export const CollectionItemImage = styled.div`
