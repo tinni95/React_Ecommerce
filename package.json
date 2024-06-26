@@ -2,8 +2,7 @@
   "name": "diverse-ecommerce",
   "version": "1.0.0",
   "engines": {
-    "node": "12.4.0",
-    "yarn": "1.16.0"
+    "node": "16.4.0"
   },
   "scripts": {
     "client": "cd client && yarn start",
